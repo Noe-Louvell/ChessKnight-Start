@@ -11,6 +11,6 @@ public class ChessBoard extends Board<Square> {
      */
     public ChessBoard() throws CloneNotSupportedException {
         super(8, 8);
-        this.fillWith(new Square(0));
+        this.fillWith(new Square(-1));
     }
 }
